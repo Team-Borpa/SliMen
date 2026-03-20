@@ -48,15 +48,11 @@ if (keyboard_check(vk_shift) && !sprinting && can_sprint){
 	
 }
 
-//Evoltuon = The number of orbs picked up
-//Upgrade 1 is the threshhold for evolving the first time
-//Upgrade 2 is the threshold for evolving to the final form
-
-if (evolution = upgrade1)
+if (score = 100)
 {
 	sprite_index = spr_slimen2
 }
-else if (evolution = upgrade2)
+else if (score = 200)
 {
 	sprite_index = spr_slimen3
 }
