@@ -49,6 +49,10 @@
     {"name":"inst_20510A72","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_5250B2D5","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_7DB78BB7","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_5D20F17F","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_30C1B1D2","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_C53BFC1","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_2771AF37","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -2083,13 +2087,17 @@
         {"$GMRInstance":"v4","%Name":"inst_20510A72","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_20510A72","objectId":{"name":"obj_room_block","path":"objects/obj_room_block/obj_room_block.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.4266666,"x":3648.0,"y":4384.0,},
         {"$GMRInstance":"v4","%Name":"inst_5250B2D5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5250B2D5","objectId":{"name":"obj_room_block","path":"objects/obj_room_block/obj_room_block.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.2133332,"scaleY":1.0,"x":4032.0,"y":3872.0,},
         {"$GMRInstance":"v4","%Name":"inst_7DB78BB7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7DB78BB7","objectId":{"name":"obj_room_block","path":"objects/obj_room_block/obj_room_block.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.2133334,"scaleY":1.0,"x":4288.0,"y":3328.0,},
+        {"$GMRInstance":"v4","%Name":"inst_5D20F17F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5D20F17F","objectId":{"name":"obj_villian1","path":"objects/obj_villian1/obj_villian1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.09332862,"scaleY":0.09332862,"x":2001.1135,"y":1838.5234,},
+        {"$GMRInstance":"v4","%Name":"inst_30C1B1D2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_30C1B1D2","objectId":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3968.0,"y":1856.0,},
+        {"$GMRInstance":"v4","%Name":"inst_C53BFC1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_C53BFC1","objectId":{"name":"obj_villian1","path":"objects/obj_villian1/obj_villian1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.09332862,"scaleY":0.09332862,"x":1536.0,"y":4128.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2771AF37","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2771AF37","objectId":{"name":"obj_villian1","path":"objects/obj_villian1/obj_villian1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.09332862,"scaleY":0.09332862,"x":608.0,"y":1024.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
   "name":"Room1",
   "parent":{
-    "name":"SLimen",
-    "path":"SLimen.yyp",
+    "name":"Rooms",
+    "path":"folders/Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
@@ -2109,7 +2117,7 @@
   },
   "sequenceId":null,
   "views":[
-    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":1280,"hport":6000,"hspeed":-1,"hview":3000,"inherit":false,"objectId":{"name":"obj_SliMen","path":"objects/obj_SliMen/obj_SliMen.yy",},"vborder":1280,"visible":true,"vspeed":-1,"wport":6000,"wview":3000,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
@@ -2121,7 +2129,7 @@
   "viewSettings":{
     "clearDisplayBuffer":true,
     "clearViewBackground":false,
-    "enableViews":false,
+    "enableViews":true,
     "inheritViewSettings":false,
   },
   "volume":1.0,
