@@ -22,7 +22,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.213",
+    "IDEVersion":"2024.14.3.217",
   },
   "name":"SLimen",
   "resources":[
@@ -40,6 +40,7 @@
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},},
     {"id":{"name":"spr_death1","path":"sprites/spr_death1/spr_death1.yy",},},
+    {"id":{"name":"spr_Internal_Walls_TileSet","path":"sprites/spr_Internal_Walls_TileSet/spr_Internal_Walls_TileSet.yy",},},
     {"id":{"name":"spr_life","path":"sprites/spr_life/spr_life.yy",},},
     {"id":{"name":"spr_pellet","path":"sprites/spr_pellet/spr_pellet.yy",},},
     {"id":{"name":"spr_room_block","path":"sprites/spr_room_block/spr_room_block.yy",},},
@@ -50,6 +51,8 @@
     {"id":{"name":"spr_villain1","path":"sprites/spr_villain1/spr_villain1.yy",},},
     {"id":{"name":"spr_villain2","path":"sprites/spr_villain2/spr_villain2.yy",},},
     {"id":{"name":"spr_Wall_Tiles","path":"sprites/spr_Wall_Tiles/spr_Wall_Tiles.yy",},},
+    {"id":{"name":"External_Walls_TileSet","path":"tilesets/External_Walls_TileSet/External_Walls_TileSet.yy",},},
+    {"id":{"name":"Internal_Walls_TileSet","path":"tilesets/Internal_Walls_TileSet/Internal_Walls_TileSet.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],
   "resourceType":"GMProject",
