@@ -5,5 +5,6 @@ if (sprite_index != spr_SliMen)
 }
 else
 {
-	instance_destroy(self)
+	//instance_create_layer(x, y, "Instances", obj_death1)
+	instance_destroy()
 }
