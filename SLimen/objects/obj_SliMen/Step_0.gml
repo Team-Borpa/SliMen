@@ -47,3 +47,12 @@ if (keyboard_check(vk_shift) && !sprinting && can_sprint){
 		alarm[1]=sprint_cooldown*room_speed;
 	
 }
+
+if (score = 100)
+{
+	sprite_index = spr_slimen2
+}
+else if (score = 200)
+{
+	sprite_index = spr_slimen3
+}

@@ -2,7 +2,9 @@ draw_set_colour($FFBFFBFF)
 draw_set_font (fn_score) 
 
 /*TODO Write Lives code here */
-
+for (i = 0; i < lives; i++) {
+	draw_sprite(spr_life, 0, (512 * i), 200)
+}
 
 draw_set_halign(fa_left)
 draw_text(55, 55, "Score: " + string(score))

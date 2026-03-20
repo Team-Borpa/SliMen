@@ -1,2 +1,9 @@
-instance_destroy(self)
-global.game_over = true
+if (sprite_index != spr_SliMen)
+{
+	instance_destroy(other)
+	score += 50
+}
+else
+{
+	instance_destroy(self)
+}
