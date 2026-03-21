@@ -1,6 +1,36 @@
+Harrison Syfert
+Isaiah Alvarado-Ramirez
+Anna Benbow
+
 Slimen is an Evolution arcade style game, where you play as Slimen, a little slime ball who recently became sentient. The Cleaning partol, guardians of the toxic wastelands, are always on the lookout for sentient trash
 and other mysterical beasts of the wastelands. Play as slimen, and see how far you can go as ever evolving and enemies seek to take you down. Every time you survive a level, you move to higher levels, where enemies 
 grow even stronger until you can no longer keep up. Collect slimeballs to evolve yourself to fend off your foes and fight for another day.
+
+The game Slimen was implemented using a combination of object-oriented programming and real-time game loop mechanics to create a dynamic arcade experience. Each entity in the game, including the player-controlled Slimen,
+enemies, and collectible SlimeBalls, is represented as an individual object with its own properties such as position, movement speed, health, and behavior patterns. Enemy AI is tiered according to difficulty, with
+Cleaners following simple linear paths, METAL GEAR robots navigating more complex patrol routes, and PHANTOM PAIN enemies utilizing proximity-based tracking and obstacle-ignoring pursuit logic. The evolution mechanic 
+is tied to the collection of SlimeBalls, triggering upgrades in real-time that enhance Slimen’s abilities and allow interaction with higher-tier enemies. Level progression is managed through a timer and event-based 
+triggers that scale enemy speed and difficulty dynamically. Player input is captured via the keyboard, supporting directional movement, sprinting with cooldowns, and cheat codes for testing or gameplay variation. 
+Collision detection, scoring, and state management are handled within the main game loop, ensuring smooth gameplay and consistent response to both player actions and evolving enemy behaviors.
+
+
+SlimeBalls:
+Collect SlimeBalls to evolve SliMen for the rest of the level, making you able to attack enemies of higher ranking and gain more points.
+Level 2-10 SlimeBalls
+Level 3- 40 SlimeBalls
+
+Enemies:
+Three tiers of enemies:
+Cleaners- Low level enemies; able to be kill after the first upgrade
+METAL GEAR- Mid Tier robot enemies; able to be killed at level two upgrade. Follow a path rather than a linear line like cleaners.
+PHANTOM PAIN - High Tier enemies. Follow a path, but will lock on to the player if too close and track them till agro is broken. They have the ability to also ignore obsticles to chase the player. 
+                They cannot be defeated until all other enemies have on the level have been killed
+
+
+Objective:
+Score as many points on as many levels as possible. You have three lives, and each level last 90 seconds or until all enemies have been killed. Slimen balls give points, killing enemies gives points and 
+forcing a persuit from Phantom Pain gives points each second theyre agrod. Be aware, all enemies gain increased movement speed each level, becoming lightning fast the higher level you go. Slimen also gains
+additional movement speed per level as well, however it is comparatively smaller than what is provided to the hostiles in the game.
 
 CONTROLS:
 SHIFT- Sprint: a 5 Sec cooldown movement ability that doubles your speed as you look to close the gap on your foe, or create distance from more powerful enemies.
