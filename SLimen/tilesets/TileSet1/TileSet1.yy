@@ -5,26 +5,26 @@
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
-    "TileSerialiseData":[]
+    "TileSerialiseData":[],
   },
   "name":"TileSet1",
-  "out_columns":16,
+  "out_columns":128,
   "out_tilehborder":0,
   "out_tilevborder":0,
   "parent":{
     "name":"Tile Sets",
-    "path":"folders/Tile Sets.yy"
+    "path":"folders/Tile Sets.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
     "name":"spr_Wall_Tiles",
-    "path":"sprites/spr_Wall_Tiles/spr_Wall_Tiles.yy"
+    "path":"sprites/spr_Wall_Tiles/spr_Wall_Tiles.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
     "name":"Default",
-    "path":"texturegroups/Default"
+    "path":"texturegroups/Default",
   },
   "tileAnimationFrames":[],
   "tileAnimationSpeed":15.0,
@@ -34,5 +34,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":0
+  "tile_count":16384,
 }

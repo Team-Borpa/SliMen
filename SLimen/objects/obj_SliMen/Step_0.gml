@@ -1,3 +1,4 @@
+
 if keyboard_check(vk_left)
 {
 	x -= move_speed;
@@ -48,11 +49,19 @@ if (keyboard_check(vk_shift) && !sprinting && can_sprint){
 	
 }
 
-if (score = 100)
+if (evolution >= 10)
 {
-	sprite_index = spr_slimen2
+	sprite_index = spr_slimen2;
+	if(!levelup1){
+	audio_play_sound(Levelup,0,false);
+	levelup1=true;
+	}
 }
-else if (score = 200)
+if (evolution >= 40)
 {
-	sprite_index = spr_slimen3
+	sprite_index = spr_slimen3;
+	if(!levelup2){
+	audio_play_sound(Levelup,0,false);
+	levelup2=true;
+	}
 }

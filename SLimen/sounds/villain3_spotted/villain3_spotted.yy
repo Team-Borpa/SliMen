@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"villain3_spotted",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":2.020136,
+  "exportDir":"",
+  "name":"villain3_spotted",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"villain3_spotted.mp3",
+  "volume":0.69,
+}
