@@ -1,3 +1,5 @@
+lives = 3
+score = 0
 global.villains_tracking=0;
 global.MainMusicChannel = audio_play_sound(snd_MainMusic, -1, true); 
 global.Level_Tracker=1;

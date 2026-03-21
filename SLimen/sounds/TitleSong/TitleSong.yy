@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"TitleSong",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":5.9306803,
+  "exportDir":"",
+  "name":"TitleSong",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"TitleSong.mp3",
+  "volume":0.3,
+}

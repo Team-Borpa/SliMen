@@ -4608,7 +4608,7 @@
   "sequenceId":null,
   "views":[
     {"hborder":1280,"hport":6000,"hspeed":-1,"hview":2000,"inherit":false,"objectId":{"name":"obj_SliMen","path":"objects/obj_SliMen/obj_SliMen.yy",},"vborder":1280,"visible":true,"vspeed":-1,"wport":6000,"wview":2000,"xport":0,"xview":0,"yport":0,"yview":0,},
-    {"hborder":32,"hport":900,"hspeed":-1,"hview":5150,"inherit":false,"objectId":null,"vborder":32,"visible":true,"vspeed":-1,"wport":900,"wview":5100,"xport":4500,"xview":600,"yport":800,"yview":350,},
+    {"hborder":32,"hport":900,"hspeed":-1,"hview":5200,"inherit":false,"objectId":null,"vborder":32,"visible":true,"vspeed":-1,"wport":900,"wview":5100,"xport":4500,"xview":450,"yport":800,"yview":350,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
